@@ -1,0 +1,7 @@
+{
+  "name": "Makelaar Voice Assistant",
+  "description": "A hands-free, voice-first application for real estate agents to dictate property leads while driving. It automatically extracts address, style, price, and contact details.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
