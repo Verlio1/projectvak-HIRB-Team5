@@ -1,0 +1,7 @@
+{
+  "name": "Vastgoed Data Assistent",
+  "description": "A voice-enabled real estate management system for Belgian real estate agents using Gemini Live API.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

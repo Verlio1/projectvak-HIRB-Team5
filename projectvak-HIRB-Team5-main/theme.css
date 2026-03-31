@@ -1,0 +1,71 @@
+/*
+ * ===========================
+ *  VDA — Centralized Theme
+ * ===========================
+ *
+ *  This file defines the color palette and design tokens for the
+ *  entire application.  Edit the CSS custom properties below to
+ *  change the look-and-feel everywhere at once.
+ *
+ *  The theme is WHITE & BLUE.
+ */
+
+:root {
+  /* ── Primary (Blue) ─────────────────────────────── */
+  --color-primary-50:  #eff6ff;
+  --color-primary-100: #dbeafe;
+  --color-primary-200: #bfdbfe;
+  --color-primary-300: #93c5fd;
+  --color-primary-400: #60a5fa;
+  --color-primary-500: #3b82f6;
+  --color-primary-600: #2563eb;
+  --color-primary-700: #1d4ed8;
+  --color-primary-800: #1e40af;
+  --color-primary-900: #1e3a8a;
+
+  /* ── Secondary (Light blue / accent) ────────────── */
+  --color-secondary-50:  #f0f9ff;
+  --color-secondary-100: #e0f2fe;
+  --color-secondary-200: #bae6fd;
+  --color-secondary-300: #7dd3fc;
+  --color-secondary-400: #38bdf8;
+  --color-secondary-500: #0ea5e9;
+  --color-secondary-600: #0284c7;
+  --color-secondary-700: #0369a1;
+  --color-secondary-800: #075985;
+  --color-secondary-900: #0c4a6e;
+
+  /* ── Surfaces / Backgrounds ─────────────────────── */
+  --color-bg-page:       #f8fafc;   /* very light blue-gray  */
+  --color-bg-card:       #ffffff;   /* white cards           */
+  --color-bg-sidebar:    #ffffff;   /* white sidebar         */
+  --color-bg-navbar:     rgba(15, 23, 42, 0.80); /* dark glass mobile bar */
+
+  /* ── Text ───────────────────────────────────────── */
+  --color-text-primary:   #0f172a;  /* near-black            */
+  --color-text-secondary: #64748b;  /* slate-500             */
+  --color-text-muted:     #94a3b8;  /* slate-400             */
+
+  /* ── Borders ────────────────────────────────────── */
+  --color-border:         #e2e8f0;  /* slate-200             */
+  --color-border-light:   #f1f5f9;  /* slate-100             */
+
+  /* ── Status colors ──────────────────────────────── */
+  --color-success: #16a34a;
+  --color-warning: #d97706;
+  --color-danger:  #dc2626;
+
+  /* ── Typography ─────────────────────────────────── */
+  --font-family: 'Inter', sans-serif;
+
+  /* ── Radius ─────────────────────────────────────── */
+  --radius-sm:  0.375rem;
+  --radius-md:  0.5rem;
+  --radius-lg:  0.75rem;
+  --radius-xl:  1rem;
+  --radius-2xl: 1.5rem;
+
+  /* ── Shadows ────────────────────────────────────── */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07);
+}
